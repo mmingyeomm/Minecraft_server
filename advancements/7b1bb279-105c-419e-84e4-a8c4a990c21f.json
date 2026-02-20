@@ -10,6 +10,7 @@
       "minecraft:badlands": "2025-07-27 00:41:39 +0900",
       "minecraft:cold_ocean": "2026-02-14 18:33:32 +0900",
       "minecraft:flower_forest": "2026-02-14 18:57:18 +0900",
+      "minecraft:snowy_slopes": "2026-02-21 01:14:55 +0900",
       "minecraft:beach": "2025-07-26 23:13:13 +0900",
       "minecraft:forest": "2025-07-26 22:46:34 +0900",
       "minecraft:river": "2025-07-26 22:48:45 +0900",
@@ -19,6 +20,7 @@
       "minecraft:snowy_taiga": "2026-02-14 18:24:56 +0900",
       "minecraft:old_growth_birch_forest": "2025-07-27 00:26:12 +0900",
       "minecraft:desert": "2025-07-27 00:40:45 +0900",
+      "minecraft:deep_dark": "2026-02-21 01:22:12 +0900",
       "minecraft:jungle": "2025-07-26 23:21:32 +0900",
       "minecraft:ocean": "2026-02-14 18:30:12 +0900",
       "minecraft:cherry_grove": "2026-02-14 18:37:54 +0900",
@@ -501,7 +503,8 @@
       "cooked_chicken": "2025-08-24 19:16:07 +0900",
       "rotten_flesh": "2025-07-27 00:02:45 +0900",
       "cooked_mutton": "2025-07-26 23:31:09 +0900",
-      "cooked_beef": "2025-08-24 19:02:21 +0900"
+      "cooked_beef": "2025-08-24 19:02:21 +0900",
+      "carrot": "2026-02-21 00:47:11 +0900"
     },
     "done": false
   },
@@ -893,6 +896,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-26 23:03:34 +0900",
       "minecraft:piglin": "2025-08-24 19:16:48 +0900",
+      "minecraft:enderman": "2026-02-21 00:55:00 +0900",
       "minecraft:spider": "2025-07-27 00:00:27 +0900",
       "minecraft:zombie": "2025-07-26 23:02:05 +0900",
       "minecraft:creeper": "2025-08-24 18:29:58 +0900",
@@ -2869,6 +2873,72 @@
   "minecraft:recipes/decorations/dark_oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2026-02-14 20:48:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-02-21 01:09:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-02-21 01:09:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-02-21 01:28:08 +0900"
     },
     "done": true
   },
